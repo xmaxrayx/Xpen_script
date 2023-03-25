@@ -1,0 +1,8 @@
+net stop TabletInputService   && net start TabletInputService
+
+REM taskkill /fi "Services eq TabletInputService" /F 
+
+
+
+
+https://stackoverflow.com/questions/1894967/how-to-request-administrator-access-inside-a-batch-file
